@@ -1,12 +1,30 @@
-header {
-    z-index: 1;
-    height: 140px;
-    padding-top: 50px;
-    .container {
-        @include flex(row, center, space-between);
-        .contact {
-            @include flex(row, center, space-between);
-            gap: 50px;
+.section-01 {
+    header {
+        z-index: 1;
+        height: 140px;
+        padding-top: 50px;
+        .container {
+            width: 100%;
+            max-width: 1348px;
+         nav {
+            @include flex(row, center, center);
+            ul {
+                width: 100%;
+                margin-left: 560px;
+                @include flex(row, center, space-between);
+                gap: 50px;
+                li {
+                    .icon-head {
+                        width: 300px;
+                    }
+                    .icon-head-2 {
+                        width: 100%;
+                        max-width: 600px;
+                    }
+                }
+
+            }
+         }
         }
     }
 }
