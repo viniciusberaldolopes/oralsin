@@ -5,7 +5,13 @@ border-radius: 26px;
 background: #096729;
 @include flex(column, center, center);
 gap: 10px;
-margin-bottom: 466px;
+p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
 }
 
 .cards:hover {
