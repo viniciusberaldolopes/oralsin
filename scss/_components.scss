@@ -1,0 +1,15 @@
+.cards {
+width: 185px;
+height: 190px;
+border-radius: 26px;
+background: #096729;
+@include flex(column, center, center);
+gap: 10px;
+margin-bottom: 466px;
+}
+
+.cards:hover {
+border-radius: 26px;
+border: 3px solid #FFE200;
+background: #1ED465;
+}

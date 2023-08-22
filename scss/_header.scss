@@ -1,0 +1,12 @@
+header {
+    z-index: 1;
+    height: 140px;
+    padding-top: 50px;
+    .container {
+        @include flex(row, center, space-between);
+        .contact {
+            @include flex(row, center, space-between);
+            gap: 50px;
+        }
+    }
+}
