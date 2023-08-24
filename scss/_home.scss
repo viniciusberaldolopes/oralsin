@@ -49,3 +49,54 @@
         }
     }
 }
+
+.section-02 {
+    margin-top: 139px;
+    .container {
+        @include flex(row, center, center);
+        gap: 61px;
+        .image {
+            width: 100%;
+            max-width: 602px;
+            height: 382px;
+        }
+        .info {
+            p {
+                font-size: 2.4rem;
+                font-weight: 500;
+                color: #657078;
+            }
+            .info-images {
+                @include flex(row, center, space-between);
+                .content-image {
+                    @include flex(column, center, center);
+                    p {
+                        text-align: center;
+                        position: absolute;
+                        bottom: -160px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-03 {
+        margin-top: 207px;
+    .container {
+        @include flex(row, center, center);
+        h2 {
+            font-size: 43px;
+            color: #1ED55F;
+            text-align: center;
+            font-weight: 400;
+            text-transform: uppercase;
+            span {
+                color: #096729;
+                font-size: 43px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
